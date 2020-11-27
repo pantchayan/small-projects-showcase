@@ -17,14 +17,14 @@
         font-family: 'Nunito Sans', sans-serif;
         color: #555;
         min-height: 100vh;
-        background: linear-gradient(to bottom right, #9be15d, #00e3ae);
+        background: linear-gradient(to bottom right, #473dd6, #7d92f0);
       }
 
       h1 {
         font-family: 'Megrim', sans-serif;
         font-size: 6rem;
         color: white;
-        transform: skewY(-5deg);
+        /* transform: skewY(-5deg); */
         text-align: center;
         position: relative;
         word-spacing: 3px;
@@ -34,14 +34,14 @@
         content: '';
         display: block;
         height: 65%;
-        width: 49%;
+        width: 47%;
         position: absolute;
         top: 105%;
         left: 50%;
-        background: linear-gradient(to bottom, #9be15d, #00e3ae);
+        background: linear-gradient(to bottom,#473dd6, #7d92f0);
         opacity: 0.8;
         z-index: -1;
-        transform: skewY(370deg) translate(-50%, -50%);
+        transform: skewY(10deg) translate(-50%, -50%);
       }
 
       .container {
