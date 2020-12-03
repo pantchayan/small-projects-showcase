@@ -71,7 +71,7 @@
       }
 
       .card__title-box {
-        background: linear-gradient(to bottom, #9be15d, #00e3ae);
+        background: linear-gradient(to bottom right, #473dd6, #7d92f0);
         margin-right: auto;
         display: flex;
         align-items: center;
@@ -111,7 +111,7 @@
         font-weight: 900;
         text-transform: uppercase;
         font-size: 1.9rem;
-        background-image: linear-gradient(to right, #9be15d, #00e3ae);
+        background-image: linear-gradient(to bottom right, #473dd6, #7d92f0);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -125,7 +125,7 @@
       .card__link:link,
       .card__link:visited {
         flex: 0 0 auto;
-        background-color: #79e17b;
+        background-color: #5868f3;
         color: white;
         font-size: 1.6rem;
         font-weight: 900;
@@ -141,7 +141,7 @@
 
       .card__link:hover,
       .card__link:active {
-        background-color: #9be15d;
+        background-color: #8ea1f7;
       }
 
       .card__link span {
