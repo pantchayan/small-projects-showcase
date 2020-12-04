@@ -91,7 +91,7 @@
         top: 0;
         left: 0;
         background-image: linear-gradient(to bottom right, #473dd6, #7d92f0);
-        opacity: 0.5;
+        opacity: 0.15;
         z-index: 100;
       }
 
@@ -260,7 +260,7 @@
       }
 
       .not-dynamic {
-        display: none;
+        display: none !important;
       }
 
       .demo-link{
@@ -273,15 +273,15 @@
 
   <body>
     <div class="container">
-      <h1>Small Projects <span><img src="./src/img/technologist.png" height="80px" width="80px"></span></h1>
+      <h1>Small Projects <span><img src="https://i.ibb.co/1RgT46k/technologist.png" height="80px" width="80px"></span></h1>
 
       <figure class="product">
         <div class="product__dynamic {%NOT_DYNAMIC%}"><h5>Dynamic</h5></div>
-        <a href="#" class="product__back">
+        <a href="/overview" class="product__back">
           <span class="emoji-left">👈</span>Back
         </a>
         <div class="product__hero">
-          <img src="{%PROJECT_IMAGE%}" height="110%" width="100%" alt="PROJECT IMAGE">
+          <img src={%IMAGE%} height="120%" width="100%" alt="PROJECT IMAGE">
         </div>
         <h2 class="product__name">{%PROJECTNAME%}</h2>
         <div class="product__details">
