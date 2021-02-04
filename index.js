@@ -20,7 +20,7 @@ const replaceTemplate = (template, el) => {
 };
 
 const tempOverview = fs.readFileSync(
-  `${__dirname}/templates/overview-template.html`,
+  `${__dirname}/index.html`,
   "utf-8"
 );
 const tempCard = fs.readFileSync(
