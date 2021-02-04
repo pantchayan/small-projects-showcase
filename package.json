@@ -1,0 +1,19 @@
+{
+  "name": "small-projects-showcase",
+  "version": "1.0.0",
+  "description": "Small Web development projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pantchayan/small-projects-showcase.git"
+  },
+  "author": "Chayan Pant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pantchayan/small-projects-showcase/issues"
+  },
+  "homepage": "https://github.com/pantchayan/small-projects-showcase#readme"
+}
